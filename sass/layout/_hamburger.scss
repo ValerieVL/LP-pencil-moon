@@ -1,0 +1,21 @@
+.hamburger, .close {
+  position: absolute;
+  top: 44px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  z-index: 10;
+}
+
+.hamburger {
+  background: url("../images/menu.svg") no-repeat center;
+  background-size: contain;
+}
+
+.close {
+  background: url("../images/close.svg") no-repeat center;
+  background-size: 40px;
+}

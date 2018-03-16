@@ -1,0 +1,63 @@
+.gallery {
+  background: #333333;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 10px;
+
+  p {
+    margin: 18px 0 0;
+  }
+
+  .wrapper-gallery {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .gallery-photo-1, .gallery-photo-2, .gallery-photo-3, .gallery-photo-4, .gallery-photo-5, .gallery-photo-6, .gallery-photo-7, .gallery-photo-8 {
+      margin: 10px;
+    }
+
+    .gallery-photo-1 {
+      background: url("../images/1.jpg") center center;
+      background-size: cover;
+    }
+
+    .gallery-photo-2 {
+      background: url("../images/2.jpg") center center;
+      background-size: cover;
+    }
+
+    .gallery-photo-3 {
+      background: url("../images/3.jpg") center center;
+      background-size: cover;
+    }
+
+    .gallery-photo-4 {
+      background: url("../images/4.jpg") center center;
+      background-size: cover;
+    }
+
+    .gallery-photo-5 {
+      background: url("../images/5.jpg") center center;
+      background-size: cover;
+    }
+
+    .gallery-photo-6 {
+      background: url("../images/6.jpg") center center;
+      background-size: cover;
+    }
+
+    .gallery-photo-7 {
+      background: url("../images/7.jpg") center center;
+      background-size: cover;
+    }
+
+    .gallery-photo-8 {
+      background: url("../images/8.jpg") center center;
+      background-size: cover;
+    }
+
+  }
+}

@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  //min-width: 350px;
+
+}
+
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  //min-width: 350px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .wrapper-header {
+    padding: 20px;
+  }
+
+  .button {
+    display: inline-block;
+    color: #ffffff;
+    background: #333333;
+    text-transform: uppercase;
+    transition: 5ms;
+  }
+
+  .button:hover {
+    background: #181818;
+
+  }
+}
+
+

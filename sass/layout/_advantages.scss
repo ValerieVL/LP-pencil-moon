@@ -1,0 +1,27 @@
+.advantages {
+  text-align: center;
+  padding: 10px;
+
+
+  .wrapper-advantages {
+    margin: 24px auto 0;
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    flex-wrap: wrap;
+
+    > div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .advantage-1, .advantage-2, .advantage-3, .advantage-4 {
+    text-align: center;
+    font-size: 16px;
+    margin: 24px 10px 0 10px;
+    max-width: 260px;
+  }
+
+}

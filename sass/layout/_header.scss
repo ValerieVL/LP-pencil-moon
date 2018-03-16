@@ -1,0 +1,48 @@
+header {
+  background: url("../images/bg.jpg") center center no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  margin: 0 auto;
+
+  .wrapper-header {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    .menu {
+      ul {
+        display: flex;
+        list-style: none;
+
+        a {
+          color: #333333;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+
+        li {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+  .order {
+    margin: 19% 0;
+
+
+
+    h1 {
+      max-width: 600px;
+      margin-right: 35%;
+    }
+  }
+}

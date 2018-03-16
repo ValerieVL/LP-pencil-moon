@@ -1,0 +1,50 @@
+
+.comments {
+  padding: 0 20px;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 48px;
+  }
+
+  .swiper-container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        margin-top: 24px;
+      }
+
+      p {
+        max-width: 800px;
+        margin: 18px 100px 42px 100px;
+      }
+
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      background: url("../images/next.svg") !important;
+      background-size: contain !important;
+    }
+
+    .swiper-button-next {
+      right: 0;
+    }
+
+
+    .swiper-button-prev {
+      transform: rotate(180deg);
+      left: 0;
+    }
+
+  }
+
+}
+
+

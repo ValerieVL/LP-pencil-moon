@@ -1,0 +1,334 @@
+/*
+** > 1140
+*/
+@media all and (min-width: 1140px) {
+  .buy {
+    background: url("../images/pencils.jpg") center;
+    background-size: cover;
+  }
+}
+
+/*
+** > 960
+** < 1140
+*/
+@media all and (min-width: 960px) and (max-width: 1140px) {
+  .buy {
+    background: url("../images/pencils.jpg") top;
+    background-size: 1200px;
+  }
+}
+
+/*
+** > 960
+*/
+@media all and (min-width: 960px) {
+  .history {
+    .wrapper-history {
+      width: 60%;
+      margin: 20px 20px 20px 7%;
+
+      h1 {
+        margin-bottom: 48px;
+      }
+    }
+    .wrapper-history-text {
+      max-width: 655px;
+
+    }
+    .img-pencil {
+      width: 40%;
+      height: 640px;
+      background: url("../images/pencil1.jpg") right top;
+      background-size: cover;
+    }
+  }
+
+  header {
+
+    .menu {
+      opacity: 1 !important;
+      z-index: 1 !important;
+    }
+    .close, .hamburger {
+      opacity: 0;
+    }
+  }
+
+}
+
+/*
+** < 959.9
+*/
+@media all and (max-width: 959.9px) {
+
+  header {
+    .menu {
+      z-index: -1;
+      opacity: 0;
+      background: #ffffff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      ul {
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        li {
+          display: block;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+
+  .history {
+    flex-wrap: wrap-reverse;
+    h1 {
+      text-align: center;
+      margin: 40px 0 30px;
+    }
+    .wrapper-history {
+      width: 100%;
+      margin: 20px;
+    }
+    .img-pencil {
+      align-self: baseline;
+      width: 100%;
+      height: 500px;
+      margin-top: 10px;
+      background: url("../images/pencil1.jpg") right top;
+      background-size: cover;
+    }
+  }
+
+  .buy {
+    background: url("../images/pencils.jpg") top;
+    background-size: 1500px;
+  }
+
+}
+
+/*
+** >640
+*/
+@media all and (min-width: 640px) {
+
+  body {
+    font-weight: 300;
+    font-size: 18px;
+
+    h1, h2 {
+      font-weight: normal;
+    }
+
+    h1 {
+      font-size: 48px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    h3 {
+      font-weight: 300;
+      font-size: 24px;
+    }
+
+    .button {
+      padding: 13px 41px;
+    }
+  }
+
+  header {
+    .order {
+      h3 {
+        margin: 24px 0 48px 0;
+      }
+    }
+  }
+
+  .advantages {
+    h1 {
+      padding-top: 86px;
+    }
+    .wrapper-advantages {
+      margin-bottom: 96px;
+    }
+    .advantage-1 {
+      h2 {
+        margin: 18px 0 12px;
+      }
+    }
+    .advantage-4 {
+      h2 {
+        margin: 8px 0 12px;
+      }
+    }
+    .advantage-2, .advantage-3 {
+      h2 {
+        margin: 32px 0 27px;
+      }
+    }
+  }
+
+  .gallery {
+    padding: 96px 0 86px;
+    p {
+      margin-bottom: 38px;
+    }
+    .gallery-photo-1, .gallery-photo-2, .gallery-photo-3, .gallery-photo-4, .gallery-photo-5, .gallery-photo-6, .gallery-photo-7, .gallery-photo-8 {
+      width: 270px;
+      height: 270px;
+    }
+  }
+
+  .comments {
+    h1 {
+      margin-bottom: 48px;
+    }
+    padding: 96px 0;
+    .icon-man {
+      width: 285px;
+      height: 329px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+      width: 100px !important;
+      height: 100px !important;
+    }
+  }
+
+  .buy {
+    .wrapper-buy-text {
+      h2{
+        margin-bottom: 48px;
+      }
+      h3 {
+        margin: 24px 0;
+      }
+    }
+  }
+
+  footer {
+    padding-top: 86px;
+    .copyright {
+      margin-top: 86px;
+    }
+  }
+}
+
+/*
+** < 639.9
+*/
+@media all and (max-width: 639.9px) {
+  body {
+    font-weight: 300;
+    font-size: 16px;
+
+    h1, h2 {
+      font-weight: normal;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-weight: 300;
+      font-size: 20px;
+    }
+
+    .button {
+      padding: 13px 34px;
+    }
+  }
+
+  header {
+    .order {
+      h3 {
+        margin: 20px 30% 30px 0;
+      }
+    }
+  }
+
+  .advantages {
+    h1 {
+      padding-top: 50px;
+    }
+    .wrapper-advantages {
+      margin-bottom: 60px;
+    }
+    .advantage-1, .advantage-2, .advantage-3 {
+      h2 {
+        margin: 18px 0 12px;
+      }
+    }
+    .advantage-4 {
+      h2 {
+        margin: 8px 0 12px;
+      }
+    }
+  }
+
+  .gallery {
+    padding: 60px 0 50px;
+    p {
+      margin-bottom: 20px;
+    }
+    .gallery-photo-1, .gallery-photo-2, .gallery-photo-3, .gallery-photo-4, .gallery-photo-5, .gallery-photo-6, .gallery-photo-7, .gallery-photo-8 {
+      width: 90%;
+      height: 200px;
+    }
+    .gallery-photo-7, .gallery-photo-8 {
+      display: none;
+    }
+  }
+
+  .comments {
+    padding: 60px 0;
+    h1 {
+      margin-bottom: 30px;
+    }
+    .icon-man {
+      width: 170px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+      width: 50px !important;
+      height: 50px !important;
+    }
+  }
+
+  .buy {
+    background: url("../images/pencils.jpg") top;
+    background-size: 1000px;
+    .wrapper-buy-text {
+      h1, h3{
+        padding-right: 25%;
+        display: block;
+      }
+
+      h2{
+        margin-bottom: 30px;
+      }
+      h3 {
+        margin: 18px 0;
+      }
+    }
+  }
+
+  footer {
+    padding-top: 50px;
+
+    .copyright {
+      margin-top: 50px;
+    }
+  }
+}
